@@ -1,0 +1,27 @@
+[package]
+name = "bitcoin_balance_etl"
+version = "0.1.0"
+edition = "2024"
+authors = ["viraladmin"]
+description = ""
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/viraladmin/bitcoin_balance_etl"
+homepage = "https://github.com/viraladmin/bitcoin_balance_etl"
+
+
+[dependencies]
+bitcoin = "0.31.2"
+leveldb = "0.8.6"
+hex = "0.4"
+sha2 = "0.10"
+base58 = "0.2"
+bech32 = "0.9"
+postgres = "0.19"
+dotenvy = "0.15"
+dirs = "5.0.1"
+db-key = "0.0.5"
+tokio = { version = "1", features = ["full"] }
+tokio-postgres = "0.7.13"
+futures = { version = "0.3", features = ["std"] }
+bytes = "1"
