@@ -95,7 +95,7 @@ checksum = "9425c3bf7089c983facbae04de54513cce73b41c7f9ff8c845b54e7bc64ebbfb"
 
 [[package]]
 name = "bitcoin_balance_etl"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "base58",
  "bech32 0.9.1",
