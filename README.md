@@ -8,6 +8,16 @@ It also includes a analytics CLI API tool for examining all things balance relat
 
 ---
 
+## Show Support
+
+I make nothing creating and sharing the tools I create. I do it for my love of the space and my love of the people in the space.
+
+Help a fellow dev out, I aint vibe codinghere. Whats a sat or two between friends. :)
+
+Bitcoin: bc1ql9xt4l62ly6pp7s9358rkdefrwc0mm5yne78xl
+
+---
+
 ## Requirements
 
 - Rust (edition 2024+)

@@ -1,14 +1,14 @@
 [package]
 name = "bitcoin_balance_etl"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
-authors = ["viraladmin"]
+authors = ["viraladmin <bc1qw7wmkq4la5x424sy900pq045nv83fr5k0z2q44>"]
 description = "A high-performance Bitcoin balance ETL tool for extracting wallet balances directly from Bitcoin Core's chainstate LevelDB, even on pruned nodes."
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/viraladmin/bitcoin_balance_etl"
 homepage = "https://github.com/viraladmin/bitcoin_balance_etl"
-
+documentation = "https://docs.rs/crate/bitcoin_balance_etl"
 
 [dependencies]
 bitcoin = "0.31.2"
