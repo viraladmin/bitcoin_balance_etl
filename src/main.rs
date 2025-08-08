@@ -170,6 +170,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
         drop(client);
         let _ = conn_task.await;
 
-        sleep(Duration::from_secs(60 * 60)).await;
+        let loop_time: u64 = dotenvy::var("LOOPTIME")
+            .ok()
+            .and_then(|s| s.parse().ok())
+            .unwrap_or(1);
+        sleep(Duration::from_secs(loop_time * 60 * 60)).await;
     }
 }
